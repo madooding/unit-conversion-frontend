@@ -1,4 +1,16 @@
 {
   "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss", "postcss", "vue"],
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "css.lint.unknownAtRules": "ignore",
 }
