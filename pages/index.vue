@@ -1,5 +1,5 @@
 <template>
-  <h1>Test</h1>
+  <h1 class="line-clamp-2">Test</h1>
 </template>
 
 <script lang="ts">
