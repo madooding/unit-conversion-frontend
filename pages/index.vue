@@ -1,9 +1,10 @@
 <template>
   <section class="py-8">
-    <div class="block-content">
+    <div class="block-content flex-col">
       <h1 class="text-center w-full">Unit Conversion</h1>
+      <p class="font-light text-white text-center text-opacity-50 mt-2">Minimal Version</p>
     </div>
-    <div class="block-content justify-center mt-8">
+    <div class="block-content justify-center mt-16">
       <div class="tabs">
         <div
           v-for="tab in tabs"
@@ -133,9 +134,9 @@ section {
 }
 
 .tabs {
-  @apply flex h-10 border border-white overflow-hidden;
+  @apply flex h-8 border border-white overflow-hidden;
 
-  border-radius: 2.5rem;
+  border-radius: 1rem;
 
   .tab {
     @apply flex items-center cursor-pointer select-none px-4;
