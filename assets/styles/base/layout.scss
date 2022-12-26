@@ -1,0 +1,9 @@
+@layer base {
+  :root {
+    font-size: 16px;
+  }
+
+  body {
+    @apply text-sm text-white bg-black;
+  }
+}
