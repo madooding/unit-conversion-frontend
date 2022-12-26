@@ -4,10 +4,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import ConversionsService from '~/services/ConversionsService'
 
 export default defineComponent({
   mounted() {
-    console.log('fuck')
+    ConversionsService.getConversionsTable().then(console.log)
   },
 })
 </script>

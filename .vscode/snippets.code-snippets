@@ -1,0 +1,13 @@
+{
+	"Generate Script (lang=ts) Tag": {
+    "scope": "vue",
+    "prefix": "ts",
+    "body": [
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({$1})",
+      "</script>"
+    ]
+  }
+}
